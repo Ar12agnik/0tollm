@@ -1,0 +1,51 @@
+Perfect approach 🚀 Since you’re learning **NumPy** as a foundation for **LLMs**, you don’t need to know *everything* in NumPy, but you should master the core topics that directly help in ML/LLM math (tensors, linear algebra, broadcasting, etc.).
+
+Here’s the list of **NumPy topics to master**:
+
+* Basics
+
+  * Array creation (`np.array`, `np.arange`, `np.linspace`, `np.zeros`, `np.ones`, `np.eye`)
+  * Array attributes (`shape`, `ndim`, `dtype`, `size`)
+  * Indexing and slicing (1D, 2D, nD arrays)
+  * Boolean indexing and masking
+
+* Array Operations
+
+  * Vectorized operations (element-wise addition, multiplication, division, etc.)
+  * Broadcasting rules
+  * Aggregations (`sum`, `mean`, `max`, `min`, `std`, `var`, `argmax`, `argmin`)
+  * Axis-wise operations
+
+* Linear Algebra (essential for LLMs)
+
+  * Dot product, inner product, outer product
+  * Matrix multiplication (`@` and `np.dot`)
+  * Transpose and reshaping (`reshape`, `ravel`, `flatten`)
+  * Norms (`np.linalg.norm`)
+  * Inverse, determinant, rank (`np.linalg.inv`, `np.linalg.det`, `np.linalg.matrix_rank`)
+  * Eigenvalues and eigenvectors (`np.linalg.eig`)
+  * Singular Value Decomposition (SVD)
+
+* Advanced Array Manipulation
+
+  * Stacking and splitting arrays (`vstack`, `hstack`, `split`)
+  * Concatenation (`concatenate`)
+  * Tiling and repeating (`tile`, `repeat`)
+  * Broadcasting tricks
+
+* Random Number Generation (`np.random`)
+
+  * Uniform, normal distributions
+  * Random integers
+  * Shuffling and permutations
+  * Seeding for reproducibility
+
+* Useful Utilities
+
+  * `np.where`, `np.unique`, `np.sort`, `np.argsort`
+  * `np.clip`
+  * `np.meshgrid` (very useful for understanding tensors)
+
+These are the **essentials** that will directly map to ML math and later to **PyTorch/TensorFlow** tensor operations.
+
+👉 Do you want me to also give you the **math topics** (linear algebra + probability) you should study in parallel with NumPy for LLMs?
